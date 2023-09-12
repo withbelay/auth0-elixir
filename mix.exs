@@ -49,7 +49,7 @@ defmodule Auth0Api.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 1.8"},
+      {:httpoison, "~> 2.1"},
       {:jason, "~> 1.2"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:dialyxir, "~> 1.0.0-rc.3", only: [:dev, :test], runtime: false}
